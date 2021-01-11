@@ -26,5 +26,5 @@ def home(requests) :
     return render(requests, 'blog/home.html', context)
 
 def about(requests) :
-    return render(requests, 'blog/about.html')
+    return render(requests, 'blog/about.html', {'title': 'about'})
 # Create your views here.
